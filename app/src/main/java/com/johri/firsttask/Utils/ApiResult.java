@@ -1,4 +1,6 @@
-package com.johri.firsttask;
+package com.johri.firsttask.Utils;
+
+import com.johri.firsttask.ListItems.FacilityItem;
 
 import java.util.ArrayList;
 

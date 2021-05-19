@@ -1,4 +1,4 @@
-package com.johri.firsttask;
+package com.johri.firsttask.Adapters;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -13,10 +13,14 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.johri.firsttask.ListItems.FacilityItem;
+import com.johri.firsttask.Utils.FacilityMapObject;
+import com.johri.firsttask.ListItems.FacilityOptionItem;
+import com.johri.firsttask.R;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 public class FacilityItemAdapter extends RecyclerView.Adapter<FacilityItemAdapter.MyHolder> {

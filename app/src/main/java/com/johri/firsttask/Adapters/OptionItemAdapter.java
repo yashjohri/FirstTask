@@ -1,4 +1,4 @@
-package com.johri.firsttask;
+package com.johri.firsttask.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.johri.firsttask.ListItems.FacilityOptionItem;
+import com.johri.firsttask.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

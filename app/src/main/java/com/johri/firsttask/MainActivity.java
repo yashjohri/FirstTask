@@ -8,6 +8,14 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
+import com.johri.firsttask.Adapters.ExclusionItemAdapter;
+import com.johri.firsttask.Adapters.FacilityItemAdapter;
+import com.johri.firsttask.ListItems.ExclusionItem;
+import com.johri.firsttask.ListItems.FacilityItem;
+import com.johri.firsttask.ListItems.FacilityOptionItem;
+import com.johri.firsttask.Utils.ApiResult;
+import com.johri.firsttask.Utils.FacilityMapObject;
+import com.johri.firsttask.Utils.FacilityOptionPair;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -108,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
             FacilityOptionPair pair1 = facilityOptionPairs.get(0);
             FacilityOptionPair pair2 = facilityOptionPairs.get(1);
 
-            exclusionMap.put(pair1.facility_id+pair1.options_id, pair2.facility_id+pair2.options_id);
+            exclusionMap.put(pair1.getFacility_id()+pair1.getOptions_id(), pair2.getFacility_id()+pair2.getOptions_id());
 
             ExclusionItem exclusionItem = new ExclusionItem(pair1.getFacility_id(), pair2.getFacility_id(), pair1.getOptions_id(), pair2.getOptions_id());
             exclusionItems.add(exclusionItem);

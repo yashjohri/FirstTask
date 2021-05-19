@@ -1,4 +1,4 @@
-package com.johri.firsttask;
+package com.johri.firsttask.Utils;
 
 public class FacilityOptionPair {
 
