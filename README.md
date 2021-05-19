@@ -2,6 +2,8 @@
 
 ### Android application made with Android Studio & Java as per requirement for first task by Physicswallah
 
+* <a href="https://github.com/yashjohri/FirstTask/tree/master/app/src/main">Source Code Shortcut</a>
+
 * Consists of single activity - MainActivity.
 * MainActivity consists of two recyclerviews - one for displaying the **Facilities** and other for displaying **Exclusions**.
 * Each recyclerview consists of **Cardview** to acheive better UI.
