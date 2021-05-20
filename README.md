@@ -28,12 +28,12 @@
   * OkHttp - to make http request to the api.
   * Gson - to parse the json object into java object.
   
-* Screenshots:
+### Screenshots:
 #### Layout
-<img src = "https://github.com/yashjohri/Screenshots/blob/main/FirstTask/img_1_layout.png" width="500">
+<img src = "https://github.com/yashjohri/Screenshots/blob/main/FirstTask/img_1_layout.png" width="300">
 
 #### Option Selection for Facility
-<img src = "https://github.com/yashjohri/Screenshots/blob/main/FirstTask/img_2_options.png" width="500">
+<img src = "https://github.com/yashjohri/Screenshots/blob/main/FirstTask/img_2_options.png" width="300">
 
 #### Invalid Selection
-<img src = "https://github.com/yashjohri/Screenshots/blob/main/FirstTask/img_3_invalid_selection.png" width="500">
+<img src = "https://github.com/yashjohri/Screenshots/blob/main/FirstTask/img_3_invalid_selection.png" width="300">
